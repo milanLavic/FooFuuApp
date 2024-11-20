@@ -50,7 +50,7 @@ public abstract class NumberProcessorBase : INumberProcessor
         await ProcessNumbersAsync(outputDevice);
     }
 
-    public async Task ProcessNumbersAsync(IOutputDevice outputDevice)
+    private async Task ProcessNumbersAsync(IOutputDevice outputDevice)
     {
         if (outputDevice == null)
         {

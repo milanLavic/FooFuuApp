@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "FooFuuApp": {
+      "commandName": "Project",
+      "commandLineArgs": "/s 100 /e 200"
+    },
+    "FooFuu - temp file": {
+      "commandName": "Project",
+      "commandLineArgs": "/s 100 /e 200 /output file /filepath \"%Temp%/MyOutput.txt\""
+    },
+    "FooFuu - no input": {
+      "commandName": "Project"
+    }
+  }
+}
